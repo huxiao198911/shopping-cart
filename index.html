@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/fontawesome-web/css/fontawesome.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>我的购物车-优品购</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="welcome">
+                品优购欢迎您！请<a class="login" href="#">登录</a>
+                <a class="register" href="#">免费注册</a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">我的订单</a>
+                    </li>
+                    <li>
+                        <a href="#">我的品优购</a>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">品优购会员</a>
+                    </li>
+                    <li>
+                        <a href="#">企业采购</a>
+                    </li>
+                    <li>
+                        <a href="#">关注品优购</a>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">客户服务</a>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">网站导航</a>
+                        <ul>
+                            <li>1</li>
+                            <li>2</li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="logo">
+                <h1>购物车</h1>
+            </div>
+            <section class="product">
+                <h1>全部商品</h1>
+                <section class="cart-header">
+                    <div class="checkbox h-checkbox">
+                        <input type="checkbox" name="check-all" id="choose-all">
+                        <label for="check-all">全选</label>
+                    </div>
+                    <div class="pro">商品</div>
+                    <div class="price">单价</div>
+                    <div class="number">数量</div>
+                    <div class="sum">小计</div>
+                    <div class="action">操作</div>
+                </section>
+                <section class="cart-item-list">
+                    <div class="cart-item current">
+                        <div class="checkbox i-checkbox">
+                            <input type="checkbox" name="check" id="check1">
+                        </div>
+                        <div class="pro i-pro">
+                            <img src="images/products/p1.jpg" alt="product 1">
+                            <p>【5本26.8元】经典儿童文学彩图青少版八十天环游地球中学生语文教学大纲</p>
+                        </div>
+                        <div class="price i-price">￥12.60</div>
+                        <div class="number i-number">
+                            <div class="quantity-form">
+                                <a href="javascript:;">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;">+</a>
+                            </div>
+                        </div>
+                        <div class="sum i-sum">￥12.60</div>
+                        <div class="action i-action"><a href="javascript:;">删除</a></div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="checkbox i-checkbox">
+                            <input type="checkbox" name="check" id="check1">
+                        </div>
+                        <div class="pro i-pro">
+                            <img src="images/products/p2.jpg" alt="product 3">
+                            <p>【5本26.8元】经典儿童文学彩图青少版八十天环游地球中学生语文教学大纲</p>
+                        </div>
+                        <div class="price i-price">￥12.60</div>
+                        <div class="number i-number">
+                            <div class="quantity-form">
+                                <a href="javascript:;">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;">+</a>
+                            </div>
+                        </div>
+                        <div class="sum i-sum">￥12.60</div>
+                        <div class="action i-action"><a href="javascript:;">删除</a></div>
+                    </div>
+                    <div class="cart-item">
+                        <div class="checkbox i-checkbox">
+                            <input type="checkbox" name="check" id="check1">
+                        </div>
+                        <div class="pro i-pro">
+                            <img src="images/products/p3.jpg" alt="product 3">
+                            <p>【5本26.8元】经典儿童文学彩图青少版八十天环游地球中学生语文教学大纲</p>
+                        </div>
+                        <div class="price i-price">￥12.60</div>
+                        <div class="number i-number">
+                            <div class="quantity-form">
+                                <a href="javascript:;">-</a>
+                                <input type="text" class="itxt" value="1">
+                                <a href="javascript:;">+</a>
+
+                            </div>
+                        </div>
+                        <div class="sum i-sum">￥12.60</div>
+                        <div class="action i-action"><a href="javascript:;">删除</a></div>
+                    </div>
+                </section>
+                <section class="cart-footer">
+                    <div class="left">
+                        <div class="f-checkbox">
+                            <input type="checkbox" class="check-all">
+                            <label for="check-all">全选</label>
+                        </div>
+                        <div class="delete">
+                            <a href="javascript:;">删除选中的商品</a>
+                        </div>
+                        <div class="clean">
+                            <a href="javascript:;">清理购物车</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="quantity">
+                            已经选<strong>3</strong>件商品
+                        </div>
+                        <div class="sum">
+                            总价：<strong> ￥67.20</strong>
+                        </div>
+                        <div class="pay">
+                            <button>去结算</button>
+                        </div>
+                    </div>
+
+                </section>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li>
+                <div><strong>正品保障</strong>
+                    <span>正品保障，提供发票</span></div>
+
+            </li>
+            <li>
+                <div><strong>正品保障</strong>
+                    <span>正品保障，提供发票</span></div>
+
+            </li>
+            <li>
+                <div> <strong>正品保障</strong>
+                    <span>正品保障，提供发票</span></div>
+
+            </li>
+            <li>
+                <div> <strong>正品保障</strong>
+                    <span>正品保障，提供发票</span></div>
+
+            </li>
+            <li>
+                <div><strong>正品保障</strong>
+                    <span>正品保障，提供发票</span></div>
+
+            </li>
+        </ul>
+        <div class="guide">
+            <ul>
+                <li>
+                    购物指南
+                    <ul>
+                        <li>购物流程</li>
+                        <li>会员介绍</li>
+                        <li>生活旅行/团购</li>
+                        <li>常见问题</li>
+                        <li>大家电</li>
+                        <li>联系客服</li>
+                    </ul>
+                </li>
+                <li>
+                    购物指南
+                    <ul>
+                        <li>购物流程</li>
+                        <li>会员介绍</li>
+                        <li>生活旅行/团购</li>
+                        <li>常见问题</li>
+                        <li>大家电</li>
+                        <li>联系客服</li>
+                    </ul>
+                </li>
+                <li>
+                    购物指南
+                    <ul>
+                        <li>购物流程</li>
+                        <li>会员介绍</li>
+                        <li>生活旅行/团购</li>
+                        <li>常见问题</li>
+                        <li>大家电</li>
+                        <li>联系客服</li>
+                    </ul>
+                </li>
+                <li>
+                    购物指南
+                    <ul>
+                        <li>购物流程</li>
+                        <li>会员介绍</li>
+                        <li>生活旅行/团购</li>
+                        <li>常见问题</li>
+                        <li>大家电</li>
+                        <li>联系客服</li>
+                    </ul>
+                </li>
+                <li>
+                    购物指南
+                    <ul>
+                        <li>购物流程</li>
+                        <li>会员介绍</li>
+                        <li>生活旅行/团购</li>
+                        <li>常见问题</li>
+                        <li>大家电</li>
+                        <li>联系客服</li>
+                    </ul>
+                </li>
+                <li>
+                    帮助中心
+                    <img src="images/erweima.png" alt="">
+                    <span>品优购客户端</span>
+                </li>
+            </ul>
+        </div>
+        <div class="links">
+            <ul>
+                <li>关于我们</li>
+                <li>联系我们</li>
+                <li>联系客服</li>
+                <li>商家入驻</li>
+                <li>行销中心</li>
+                <li>手机品优购</li>
+                <li>友情链接</li>
+                <li>销售联盟</li>
+                <li>品优购社区</li>
+                <li>品优购公益</li>
+                <li>English Site</li>
+                <li>Contact us</li>
+            </ul>
+            <div class="address">
+                <ul>
+                    <li>地址：北京市昌平区建材城西路金燕龙办公楼一层</li>
+                    <li>邮编：100096</li>
+                    <li>电话：400-618-4000</li>
+                    <li> 传真：010-82935100</li>
+                    <li> 邮箱:
+                        <a href="mailto: zhanghj+itcast.cn">
+                            zhanghj+itcast.cn
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p>京ICP备08001421号京公网安备110108007702</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
